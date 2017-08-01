@@ -25,7 +25,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script type="text/javascript" src="js/easing.js"></script>
 	<script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
+				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
@@ -39,17 +39,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="container">
 		<div class="header">
 				<div class="logo">
-					<h1><a href="index.html">Music Band</a></h1>
+					<h1><a href="index.html">Veronica Folklore Y Bambu</a></h1>
 				</div>
 				<div class="top-nav">
 					<span class="menu"> <img src="images/icon.png" alt=""/></span>
 					<ul class="res">
-					   <li><a href="index.html" class="active"><span class="glyphicon glyphicon-home" aria-hidden="true"> </span></a></li> 
-						<li><a href="about.html">About Band</a></li> 
-						<li><a href="typo.html">Typo</a></li> 
-						<li><a href="gallery.html">Gallery</a></li> 
-						<li><a href="events.html">Events</a></li> 
-						<li class="nav-line"><a href="contact.html">Contact</a></li> 
+					   <li><a href="index.html" class="active"><span class="glyphicon glyphicon-home" aria-hidden="true"> </span></a></li>
+						<li><a href="about.html">About Band</a></li>
+						<li><a href="typo.html">Typo</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li class="nav-line"><a href="contact.html">Contact</a></li>
 				   </ul>
 					<!-- script-for-menu -->
 						 <script>
@@ -80,11 +80,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			  	<a href="#"><img src="images/sing.jpg"></a>
 			  </div>
 			  <div class="col-md-8 singer-right">
-			  	<h3>Lorem ipsum dolor sit amet</h3>
-			  	<h4>Duis aute irure dolor in reprehenderit</h4>
-			  	<h5>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+			  	<h3>Mi corazón es de Bambú...</h3>
+			  	<h4>Tócalo y te daré las mejores melodías, cuídalo por que es muy frágil !</h4>
+			  	<!-- <h5>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
 			  	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-			  </div>
+				--> <!--Will think of something later -M -->
+				</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
@@ -110,6 +111,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				    </div>
 				</div>
 				<div class="col-md-6 program-gridright">
+											</br> <!--Added to give space to imagae at certain sizes -M -->
                       <img src="images/1.jpg" alt="" class="img-responsive">
 				</div>
 			 <div class="clearfix"> </div>
@@ -171,17 +173,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="footer-bottom">
 			     <span class="glyphicon glyphicon-envelope" aria-hidden="true"> </span>
 			     <ul class="ftr-nav">
-					   <li><a href="index.html" class="active"><span class="glyphicon glyphicon-home" aria-hidden="true"> </span></a></li> 
-						<li><a href="about.html">About</a></li> 
-						<li><a href="typo.html">Typo</a></li> 
-						<li><a href="gallery.html">Gallery</a></li> 
-						<li><a href="events.html">Events</a></li> 
-						<li><a href="contact.html">Contact</a></li> 
+					   <li><a href="index.html" class="active"><span class="glyphicon glyphicon-home" aria-hidden="true"> </span></a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="typo.html">Typo</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="contact.html">Contact</a></li>
 				   </ul>
 		<div class="copy-right">
 			<p>© 2015 Music Band All rights reserved | Design by  <a href="http://w3layouts.com/" target="_blank">  W3layouts </a></p>
 			<ul class="social">
-						<li><a href="#"><i> </i></a></li>						
+						<li><a href="#"><i> </i></a></li>
 						<li><a href="#"><i class="rss"> </i></a></li>
 						<li><a href="#"><i class="twitter"> </i></a></li>
 						<li><a href="#"><i class="dribble"> </i></a></li>
@@ -196,12 +198,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									  			containerID: 'toTop', // fading element id
 												containerHoverID: 'toTopHover', // fading element hover id
 												scrollSpeed: 1200,
-												easingType: 'linear' 
+												easingType: 'linear'
 									 		};
 											*/
-											
+
 											$().UItoTop({ easingType: 'easeOutQuart' });
-											
+
 										});
 									</script>
 						<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
